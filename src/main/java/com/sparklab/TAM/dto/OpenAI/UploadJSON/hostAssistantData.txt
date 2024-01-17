@@ -1,0 +1,49 @@
+ConfirmationCode	Status      GuestName                 Contact      Adults   Children   Infants   StartDate    EndDate      Nights   Booked   Listing                                          Earnings
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HMJZNKAC15        Past guest  Maril Dings               -            2        0          0         12/22/2023   12/23/2023   1        20/06/2023   Pazari Cozy Terrace⚡️Enjoy Albania Apartments   €37.11
+HMJZNKAC16        Past guest  Aldo Kacorri              -            2        0          0         12/23/2023   12/24/2023   1        19/06/2023   Skanderbeg Deluxe A⚡️Enjoy Albania Apartments  €45.12
+HMJZNKAC17        Past guest  Riccardo Modolo           -            5        0          0         12/23/2023   12/24/2023   1        10/06/2023   Skanderbeg View ⚡️ Enjoy Albania Apartments    €60.54
+HMJZNKAC18        Past guest  Milan Mueller             -            4        0          0         12/22/2023   12/24/2023   2        02/06/2023   Pazari Colorful⚡️Enjoy Albania Apartments      €109.90
+HMJZNKAC19        Past guest  Jorge García Gutiérrez    -            4        0          0         12/22/2023   12/24/2023   2        08/05/2023   Pazari Balconies⚡️ Enjoy Albania Apartments    €104.11
+HMJZNKAC20        Past guest  Pien Brink                -            2        0          0         12/22/2023   12/24/2023   2        03/05/2023   Blloku Luxury B ⚡️ Enjoy Albania Apartments    €86.76
+HMJZNKAC21        Past guest  Cecilie Bang              -            2        0          0         12/23/2023   12/24/2023   1        20/06/2023   Blloku Cozy ⚡️ Enjoy Albania Apartments        €34.94
+HMJZNKAC22        Past guest  Kleant Lami               -            2        0          0         12/23/2023   12/24/2023   1        20/06/2023   Blloku Charming⚡️Enjoy Albania Apartments     €37.10
+HMJZNKAC23        Past guest  Franc Hoxha               -            2        0          0         12/22/2023   12/23/2023   1        19/06/2023   Blloku Stylish⚡️Enjoy Albania Apartments      €40.73
+HMJZNKAC24        Past guest  Adi Sehu                  -            2        0          0         12/22/2023   12/23/2023   1        13/06/2023   Skanderbeg Ethnica ⚡️ Enjoy Albania Apartments €40.78
+HMJZNKAC25        Past guest  Skofi Halili              -            4        0          0         12/22/2023   12/24/2023   2        08/06/2023   Pazari Central ⚡️Enjoy Albania Apartments    €109.90
+HMJZNKAC26        Past guest  Jana Bilke                -            3        0          0         12/25/2023   12/27/2023   2        05/06/2023   Skanderbeg Deluxe A⚡️Enjoy Albania Apartments  €107.97
+HMJZNKAC27        Past guest  Nazarena Lafitte Gili     -            2        0          0         12/25/2023   12/27/2023   2        31/05/2023   Pazari Cozy Terrace⚡️Enjoy Albania Apartments  €82.90
+HMJZNKAC28        Past guest  Bettina Brønnum Lohse     -            3        0          0         12/26/2023   12/27/2023   1        26/05/2023   Skanderbeg View ⚡️ Enjoy Albania Apartments    €54.95
+HMJZNKAC29        Past guest  Lennard Dost              -            2        0          0         12/25/2023   12/29/2023   4        26/05/2023   Pazari Superior⚡️ Enjoy Albania Apartments   €179.30
+HMJZNKAC30        Past guest  Tinne Van Den Ackerveken  -            2        3          0         12/25/2023   12/27/2023   2        12/04/2023   Pazari Deluxe⚡️ Enjoy Albania Apartments      €113.75
+HMJZNKAC31        Past guest  Leonie Wulftange          -            2        0          0         12/22/2023   12/24/2023   2        04/01/2023   Blloku Luxury  A⚡️ Enjoy Albania Apartments  €96.40
+HMJZNKAC15        Past guest  Maril Dings               -            2        0          0         01/22/2024   01/23/2024   1        20/06/2023   Pazari Cozy Terrace⚡️Enjoy Albania Apartments   €37.11
+HMJZNKAC16        Past guest  Aldo Kacorri              -            2        0          0         01/23/2024   01/24/2024   1        19/06/2023   Skanderbeg Deluxe A⚡️Enjoy Albania Apartments  €45.12
+HMJZNKAC17        Past guest  Riccardo Modolo           -            5        0          0         01/23/2024   01/24/2024   1        10/06/2023   Skanderbeg View ⚡️ Enjoy Albania Apartments    €60.54
+HMJZNKAC18        Past guest  Milan Mueller             -            4        0          0         01/22/2024   01/24/2024   2        02/06/2023   Pazari Colorful⚡️Enjoy Albania Apartments      €109.90
+HMJZNKAC19        Past guest  Jorge García Gutiérrez    -            4        0          0         01/22/2024   01/24/2024   2        08/05/2023   Pazari Balconies⚡️ Enjoy Albania Apartments    €104.11
+HMJZNKAC20        Past guest  Pien Brink                -            2        0          0         01/22/2024   01/24/2024   2        03/05/2023   Blloku Luxury B ⚡️ Enjoy Albania Apartments    €86.76
+HMJZNKAC21        Past guest  Cecilie Bang              -            2        0          0         01/23/2024   01/24/2024   1        20/06/2023   Blloku Cozy ⚡️ Enjoy Albania Apartments        €34.94
+HMJZNKAC22        Past guest  Kleant Lami               -            2        0          0         01/23/2024   01/24/2024   1        20/06/2023   Blloku Charming⚡️Enjoy Albania Apartments     €37.10
+HMJZNKAC23        Past guest  Franc Hoxha               -            2        0          0         01/22/2024   01/23/2024   1        19/06/2023   Blloku Stylish⚡️Enjoy Albania Apartments      €40.73
+HMJZNKAC24        Past guest  Adi Sehu                  -            2        0          0         01/22/2024   01/23/2024   1        13/06/2023   Skanderbeg Ethnica ⚡️ Enjoy Albania Apartments €40.78
+HMJZNKAC25        Past guest  Skofi Halili              -            4        0          0         01/22/2024   01/24/2024   2        08/06/2023   Pazari Central ⚡️Enjoy Albania Apartments    €109.90
+HMJZNKAC26        Past guest  Jana Bilke                -            3        0          0         01/25/2024   01/27/2024   2        05/06/2023   Skanderbeg Deluxe A⚡️Enjoy Albania Apartments  €107.97
+HMJZNKAC27        Past guest  Nazarena Lafitte Gili     -            2        0          0         01/25/2024   01/27/2024   2        31/05/2023   Pazari Cozy Terrace⚡️Enjoy Albania Apartments  €82.90
+HMJZNKAC28        Past guest  Bettina Brønnum Lohse     -            3        0          0         01/26/2024   01/27/2024   1        26/05/2023   Skanderbeg View ⚡️ Enjoy Albania Apartments    €54.95
+HMJZNKAC29        Past guest  Lennard Dost              -            2        0          0         01/25/2024   01/29/2024   4        26/05/2023   Pazari Superior⚡️ Enjoy Albania Apartments   €179.30
+HMJZNKAC30        Past guest  Tinne Van Den Ackerveken  -            2        3          0         01/25/2024   01/27/2024   2        12/04/2023   Pazari Deluxe⚡️ Enjoy Albania Apartments      €113.75
+HMJZNKAC31        Past guest  Leonie Wulftange          -            2        0          0         01/22/2024   01/24/2024   2        04/01/2023   Blloku Luxury  A⚡️ Enjoy Albania Apartments  €96.40
+
+
+
+
+
+
+
+
+
+
+
+
+
