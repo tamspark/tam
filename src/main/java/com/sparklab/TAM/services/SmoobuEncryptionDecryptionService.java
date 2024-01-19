@@ -1,7 +1,7 @@
 package com.sparklab.TAM.services;
 
-import com.sparklab.TAM.dto.smoobu.SmoobuAccountDTO;
 import com.sparklab.TAM.dto.smoobu.SmoobuResponseDTO;
+import com.sparklab.TAM.dto.smoobu.SmoobuAccountDTO;
 import com.sparklab.TAM.exceptions.DuplicateException;
 import com.sparklab.TAM.exceptions.NotFoundException;
 import com.sparklab.TAM.model.SmoobuAccount;
@@ -13,7 +13,6 @@ import lombok.AllArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
-
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
@@ -35,19 +34,10 @@ public class SmoobuEncryptionDecryptionService {
     public SecretKey generateSecretKey() {
         try {
             Map<String, String> env = System.getenv();
-            byte[] secretKeyBytes;
 
-            String value = "secret";
-            secretKeyBytes = value.getBytes();
-
-            if (env.containsKey("MY_SECRET_KEY")) {
-                System.out.println("MY_SECRET_KEY");
-                secretKeyBytes = env
-                        .get("MY_SECRET_KEY")
-                        .getBytes(StandardCharsets.UTF_8);
-            }
-
-
+            byte[] secretKeyBytes = env
+                    .get("MY_SECRET_KEY")
+                    .getBytes(StandardCharsets.UTF_8);
             MessageDigest shaMessage = MessageDigest.getInstance("SHA-256");
             secretKeyBytes = shaMessage.digest(secretKeyBytes);
             secretKeyBytes = Arrays.copyOf(secretKeyBytes, 16);
@@ -67,8 +57,8 @@ public class SmoobuEncryptionDecryptionService {
             String encryptedApiKey = EncryptionUtil.encrypt(smoobuAccountDTO.getClientAPIKey(), secretKey);
             String encryptedClientId = EncryptionUtil.encrypt(smoobuAccountDTO.getClientId(), secretKey);
             if (!smoobuAccountRepository.existsByClientId(encryptedClientId)) {
-                User smoobuUser = userRepository.findById(smoobuAccountDTO.getUserId()).get();
-                SmoobuAccount apikey = new SmoobuAccount(encryptedClientId, encryptedApiKey, smoobuUser);
+                User smoobuUser=userRepository.findById(smoobuAccountDTO.getUserId()).get();
+                SmoobuAccount apikey = new SmoobuAccount(encryptedClientId, encryptedApiKey,smoobuUser);
                 smoobuAccountRepository.save(apikey);
                 return new SmoobuResponseDTO(smoobuAccountRepository.existsByUser_Id(smoobuAccountDTO.getUserId()));
             }

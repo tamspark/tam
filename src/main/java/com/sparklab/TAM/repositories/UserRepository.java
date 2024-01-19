@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
     User findUserByConfirmationToken(String token);
@@ -15,8 +16,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     Optional<User> findUsersByEmail(String email);
 
-    @Query(value = "select * from user u where u.email=:email AND u.is_enabled=1", nativeQuery = true)
-    Optional<User> findUsersByEmailEnabled(String email);
+    Optional<User> findUserByEmailAndIsEnabledTrue(String email);
 
     User findByForgetPasswordToken(String forgetPasswordToken);
 

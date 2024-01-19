@@ -40,8 +40,8 @@ public class AuthenticationService {
                     loginDTO.getEmail(), loginDTO.getPassword()));
             System.out.println(authentication);
             SecurityContextHolder.getContext().setAuthentication(authentication);
-            String token = jwtUtils.generateAccessToken(userRepository.findUsersByEmailEnabled(loginDTO.getEmail()).get());
-           loginResponse = setUserData(userRepository.findUsersByEmailEnabled(loginDTO.getEmail()).get(), token);
+            String token = jwtUtils.generateAccessToken(userRepository.findUserByEmailAndIsEnabledTrue(loginDTO.getEmail()).get());
+           loginResponse = setUserData(userRepository.findUserByEmailAndIsEnabledTrue(loginDTO.getEmail()).get(), token);
             return new ResponseEntity<>(loginResponse, HttpStatus.OK);
 
         } catch (BadCredentialsException e) {
