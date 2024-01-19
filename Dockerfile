@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine
+FROM openjdk:19
 VOLUME /tmp
 EXPOSE 8080
 COPY target/*.jar app.jar
