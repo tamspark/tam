@@ -41,6 +41,7 @@ public class SmoobuEncryptionDecryptionService {
             secretKeyBytes = value.getBytes();
 
             if (env.containsKey("MY_SECRET_KEY")) {
+                System.out.println("MY_SECRET_KEY");
                 secretKeyBytes = env
                         .get("MY_SECRET_KEY")
                         .getBytes(StandardCharsets.UTF_8);
