@@ -4,5 +4,4 @@ RUN mvn clean package
 FROM openjdk:19-jdk
 COPY --from=build /target/TAM-tam.jar app.jar
 EXPOSE 8080
-ENTRYPOINT
-["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
