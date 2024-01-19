@@ -3,5 +3,6 @@ COPY . .
 RUN mvn clean package
 FROM openjdk:19-jdk
 COPY --from=build /target/TAM-tam.jar app.jar
+ENV MY_SECRET_KEY=secret
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
