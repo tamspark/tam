@@ -9,6 +9,7 @@ import com.sparklab.TAM.model.User;
 import com.sparklab.TAM.repositories.SmoobuAccountRepository;
 import com.sparklab.TAM.repositories.UserRepository;
 import com.sparklab.TAM.utils.EncryptionUtil;
+import com.sun.mail.iap.ByteArray;
 import lombok.AllArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -34,10 +35,15 @@ public class SmoobuEncryptionDecryptionService {
     public SecretKey generateSecretKey() {
         try {
             Map<String, String> env = System.getenv();
-
-            byte[] secretKeyBytes = env
+            byte[] secretKeyBytes;
+            if (!env.containsKey("MY_SECRET_KEY")){
+                String value = "secret";
+                secretKeyBytes = value.getBytes();
+            }
+            secretKeyBytes = env
                     .get("MY_SECRET_KEY")
                     .getBytes(StandardCharsets.UTF_8);
+
             MessageDigest shaMessage = MessageDigest.getInstance("SHA-256");
             secretKeyBytes = shaMessage.digest(secretKeyBytes);
             secretKeyBytes = Arrays.copyOf(secretKeyBytes, 16);
