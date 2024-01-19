@@ -101,7 +101,7 @@ public class AvailabilityFileService {
     public String createFile(Integer apartmentId) {
 
 
-        List<Map.Entry<String, List<ApartmentDataSimple>>> dataSet = getRates("3", apartmentId);
+        List<Map.Entry<String, List<ApartmentDataSimple>>> dataSet = getRates("2", apartmentId);
         String directoryPath = "dataFiles";
         String fileName = "clientDataFile.txt";
 

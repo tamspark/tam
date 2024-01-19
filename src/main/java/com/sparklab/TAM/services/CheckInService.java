@@ -100,7 +100,7 @@ public class CheckInService {
 
         String dateTodayFormatted = dateToday.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
-        List<ApartmentCalendarDTO> reservations = reservationService.getAllReservationsByDateCalendar("3", dateTodayFormatted, dateTodayFormatted);
+        List<ApartmentCalendarDTO> reservations = reservationService.getAllReservationsByDateCalendar("2", dateTodayFormatted, dateTodayFormatted);
 
         List<CalendarResponseDTO> todayCheckout = new ArrayList<>();
 

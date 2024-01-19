@@ -116,7 +116,7 @@ public class ReservationFileService {
 
 
     private List<ApartmentCalendarDTO> getReservations(String fromDate, String toDate) {
-        return reservationService.getAllReservationsByDateCalendar("3", fromDate, toDate);
+        return reservationService.getAllReservationsByDateCalendar("2", fromDate, toDate);
     }
 
 }
